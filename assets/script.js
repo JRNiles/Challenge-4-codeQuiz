@@ -70,9 +70,9 @@ function endQuiz() {
     clearTimeout(timer);
     const quizContainer = document.getElementById("quiz-container");
     quizContainer.innerHTML = `
-        <h1>Quiz Completed!</h1>
-        <p>Your score: ${score}/${questions.length}</p>
-    `;
+    <h1>Quiz Completed!</h1>
+    <p>Your score: ${score}/${questions.length}</p>
+`;
 }
 
 // Starts the quiz
